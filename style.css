@@ -1,0 +1,12 @@
+.top {
+	display: block;
+}
+.bottom {
+	display: block;
+}
+.top img {
+	float: left;
+}
+.menu{
+	float: right;
+}
