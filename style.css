@@ -1,12 +1,162 @@
+header {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 600px;
+	border: solid green 2px;
+
+	background-image: url(http://lorempicsum.com/rio/1500/600/4)
+}
+
 .top {
-	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+	height: 200px;
+	border: solid black 2px;
 }
+
+.menu {
+	display: flex;
+	width: 50%;
+
+	border: blue solid 2px;
+	justify-content: space-around;
+	flex-direction: row;
+
+	padding: 30px;
+	margin: 0;
+
+}
+.menu li {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	height: auto;
+	font-size: 1.5em;
+	font-weight: bold;
+	border: pink solid 2px;
+}
+
+
 .bottom {
-	display: block;
+	display: flex;
+	border: solid red 2px;
+
+	width: 100%;
+	height: 100%;
+
+	justify-content: space-between;
 }
+
 .top img {
-	float: left;
+	margin: auto 50px;
 }
-.menu{
-	float: right;
+
+
+.bottom div {
+	text-align: center;
 }
+
+.media {
+	border: solid blue 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-content: center;
+
+	/*position: absolute;*/
+	padding:0;
+	margin: 0;
+	width: auto;
+	height: 70%;
+}
+
+.media li {
+	
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.bottom div {
+	border: solid black 2px;
+
+	/*position: relative;*/
+	width: 500px;
+	height: 300px;
+	margin: auto;
+	padding: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+.service {
+	border:solid black 2px;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.service div {
+	border: solid orange 2px;
+	margin: 30px 0;
+	width: 20%;
+	height: auto;
+	text-align: center;
+
+}
+
+.service a{
+	border: black solid 1px;
+	padding: 4px;
+}
+
+
+
+
+
+
+
+.about {
+	display: flex;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+
+	border: solid 2px red;
+}
+
+.about div {
+	padding: 5px;
+	margin: 0;
+	width: 40%;
+
+	border: solid 2px blue;
+}
+
+.about h2 {
+	font-size: 2em;
+}
+
+.about div:nth-child(2){
+	text-align: center;
+}
+
+
+.contact {
+	
+}
+
+.contact div {
+
+}
+
+
+
